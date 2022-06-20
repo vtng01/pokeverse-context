@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "parcel build src/index.html",
     "lint": "eslint ./src --ext .js,.jsx",
     "start": "parcel src/index.html --open",
     "test:watch": "jest --watch",
@@ -15,7 +16,8 @@
     "bootstrap": "^5.1.3",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.2",
